@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container div {
+    border: 2px solid #ccc;
+    padding: 15px;
+}
+
+.item-box-1 {
+    flex: 2; /*dimensão da caixa*/
+    order: 2;
+    background-color: aqua;
+    align-self: flex-start;
+}
+
+.item-box-2 {
+    flex: 1;
+    order: 1;
+    background-color: blue;
+    align-self: flex-end;
+}
+
+.item-box-3 {
+    flex: 1;
+    order: 3;
+    background-color: blueviolet;
+    align-self: flex-start;
+}
